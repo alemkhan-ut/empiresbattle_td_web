@@ -1,6 +1,43 @@
 <linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ShakeBodyDoTweenAnim" preserve="all" />
+    <type fullname="WarriorsVSOrcs.FadingText" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Atc_Jumper_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Atc_Runner_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Atc_Tank_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.DamageControl" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Dfd_Cat_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Dfd_Chick_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Dfd_DamageTrap" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Dfd_Monkey_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.EqAnimObject" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.HitGlowControl" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Mine" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Pickup_Resource" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.PlayerBlock_A" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.PowerBomb" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Projectile_Base" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.Projectile_Curve" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.ResourceCreator" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Gameplay.ZDepthUpdate" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.AvatarPart" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.AvatarPartList" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.BarnSkin" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.Contents" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.DataStorage" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.Decoratives" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.Equipment" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.GameplayData" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.Level" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.OpponentData" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.PlayerData" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.Power" preserve="all" />
+    <type fullname="WarriorsVSOrcs.ScriptableObjects.RewardData" preserve="all" />
+    <type fullname="WarriorsVSOrcs.Spin" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Localization.Locale" preserve="all" />
@@ -11,14 +48,64 @@
     <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.LocalizedString" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
   </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.Outline" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
 </linker>
