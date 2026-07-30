@@ -27,13 +27,13 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/empiresbattle_td_web.data",
-        frameworkUrl: "Build/empiresbattle_td_web.framework.js",
-        codeUrl: "Build/empiresbattle_td_web.wasm",
+        dataUrl: "Build/empiresbattle_td_web.data.unityweb",
+        frameworkUrl: "Build/empiresbattle_td_web.framework.js.unityweb",
+        codeUrl: "Build/empiresbattle_td_web.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "empiresbattle",
         productName: "tower-defense",
-        productVersion: "0.11.1",
+        productVersion: "0.11.5",
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       }).then((unityInstance) => {
