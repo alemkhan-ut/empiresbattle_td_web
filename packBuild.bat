@@ -32,29 +32,9 @@ for %%f in (*.wasm.unityweb) do ren "%%f" "content.wasm.unityweb"
 popd
 
 echo.
-echo Reading version...
-
-set VERSION=
-
-for /f "tokens=2 delims=\"" %%a in ('findstr /c:"productVersion:" index.html') do (
-    set VERSION=%%a
-)
-
-if "%VERSION%"=="" (
-    echo ERROR: Cannot determine productVersion.
-    pause
-    exit /b 1
-)
-
-echo Version: %VERSION%
-
-if exist "%VERSION%.zip" del "%VERSION%.zip"
-
-echo.
 echo Creating archive...
 
-powershell -NoProfile -Command ^
-"Compress-Archive -Path 'Build','StreamingAssets' -DestinationPath '%VERSION%.zip' -Force"
+"C:\Program Files\7-Zip\7z.exe" a -tzip "build.zip" Build StreamingAssets
 
 echo.
 echo =====================================
